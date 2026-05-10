@@ -1,20 +1,39 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Classroom Unblocked
 
-# Run and deploy your AI Studio app
+A high-performance portal for unblocked educational games and tools.
 
-This contains everything you need to run your app locally.
-
-View your app in AI Studio: https://ai.studio/apps/07124f67-6df4-4764-8314-04822b04b2c0
-
-## Run Locally
-
-**Prerequisites:**  Node.js
-
+## Setup
 
 1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+   ```bash
+   npm install
+   ```
+2. Start development server:
+   ```bash
+   npm run dev
+   ```
+
+## GitHub Pages Deployment
+
+If you are seeing a blank page on GitHub, follow these steps:
+
+1. **Build the project**:
+   ```bash
+   npm run build
+   ```
+2. **Deploy the `dist` folder**: Use a tool like `gh-pages` or configure GitHub Actions to deploy the content of the `dist` folder.
+3. **Base Path**: If your repository name is not exactly the domain root (e.g., `username.github.io/repo/`), make sure to update the `base` in `vite.config.ts`:
+   ```ts
+   // vite.config.ts
+   export default defineConfig({
+     base: '/your-repo-name/',
+     // ...
+   });
+   ```
+   *Note: I have currently set it to `./` which works for most relative paths.*
+
+## Technical Info
+
+- Framework: React 18+ with Vite
+- Styling: Tailwind CSS
+- Server: Express for SPA routing and asset serving
