@@ -1,0 +1,83 @@
+import { useParams, Link } from 'react-router-dom';
+import { ArrowLeft, Maximize2, RefreshCw } from 'lucide-react';
+import { games } from '../data/games';
+import { useState, useRef } from 'react';
+
+export default function GamePlayer() {
+  const { id } = useParams();
+  const game = games.find(g => g.id === id);
+  const [key, setKey] = useState(0);
+  const containerRef = useRef<HTMLDivElement>(null);
+
+  if (!game) {
+    return (
+      <div className="flex flex-col items-center justify-center min-h-[60vh]">
+        <h1 className="text-4xl font-mono font-black uppercase mb-4">404: Game Moved</h1>
+        <Link to="/" className="brutalist-button">Return to Mainframe</Link>
+      </div>
+    );
+  }
+
+  const reloadGame = () => setKey(prev => prev + 1);
+
+  const toggleFullscreen = () => {
+    if (containerRef.current) {
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      } else {
+        containerRef.current.requestFullscreen().catch(err => {
+          console.error(`Error attempting to enable full-screen mode: ${err.message}`);
+        });
+      }
+    }
+  };
+
+  return (
+    <div className="max-w-7xl mx-auto px-4 py-8">
+      <div className="flex flex-col md:flex-row items-start md:items-center justify-between mb-6 gap-4">
+        <div>
+          <Link to="/" className="inline-flex items-center gap-2 font-mono text-sm font-bold opacity-60 hover:opacity-100 transition-opacity mb-2">
+            <ArrowLeft className="w-4 h-4" /> BACK_TO_DIRECTORY
+          </Link>
+          <h1 className="text-3xl font-mono font-black uppercase tracking-tight">
+            {game.title}
+          </h1>
+        </div>
+        <div className="flex items-center gap-3">
+          <button 
+            onClick={reloadGame}
+            className="brutalist-button flex items-center gap-2 text-xs"
+            title="Reload System"
+          >
+            <RefreshCw className="w-4 h-4" /> RELOAD
+          </button>
+          <button 
+            onClick={toggleFullscreen}
+            className="brutalist-button flex items-center gap-2 text-xs"
+          >
+            <Maximize2 className="w-4 h-4" /> FULLSCREEN
+          </button>
+        </div>
+      </div>
+
+      <div 
+        ref={containerRef}
+        className="brutalist-card bg-black flex flex-col aspect-[16/9] w-full overflow-hidden relative"
+      >
+        <div className="absolute top-0 right-0 p-2 z-10 flex gap-2">
+           <div className="w-3 h-3 rounded-full bg-red-500 opacity-50" />
+           <div className="w-3 h-3 rounded-full bg-yellow-500 opacity-50" />
+           <div className="w-3 h-3 rounded-full bg-green-500 opacity-50" />
+        </div>
+        <iframe
+          key={key}
+          src={game.url}
+          className="w-full h-full border-none"
+          allowFullScreen
+          title={game.title}
+        />
+      </div>
+
+    </div>
+  );
+}
