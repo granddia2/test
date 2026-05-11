@@ -29,7 +29,7 @@ export const games: Game[] = [
     title: 'Assault Bots(NOT WORKING)',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbz5GtoRAR-e_NYMEGdV33FLU03F3DlGqW34qEkkEzGC5D8e7rvDjJs4S11jaH5_J_z7/exec',
-    thumbnail: 'https://picsum.photos/seed/strategy/600/400',
+    thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
     category: 'Strategy'
   },
   {
