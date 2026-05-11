@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Access Required</title>
+
+  <style>
+    body {
+      background: #121212;
+      color: white;
+      font-family: Arial, sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .box {
+      background: #1e1e1e;
+      padding: 30px;
+      border-radius: 12px;
+      text-align: center;
+      width: 300px;
+    }
+
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 10px;
+      border: none;
+      border-radius: 8px;
+      font-size: 16px;
+    }
+
+    button {
+      margin-top: 15px;
+      width: 100%;
+      padding: 10px;
+      border: none;
+      border-radius: 8px;
+      background: #4a90e2;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #3578c7;
+    }
+
+    #error {
+      color: red;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+
+<div class="box">
+  <h2>Enter Access Code</h2>
+
+  <input type="password" id="code" placeholder="Access code">
+
+  <button onclick="checkCode()">Enter</button>
+
+  <p id="error"></p>
+</div>
+
+<script>
+  const ACCESS_CODE = "mysecretcode123";
+
+  function checkCode() {
+    const entered = document.getElementById("code").value;
+
+    if (entered === ACCESS_CODE) {
+
+      // Save login
+      localStorage.setItem("authorized", "true");
+
+      // Go to main page
+      window.location.href = "home.html";
+
+    } else {
+      document.getElementById("error").textContent =
+        "Incorrect access code";
+    }
+  }
+
+  // Auto redirect if already authorized
+  if (localStorage.getItem("authorized") === "true") {
+    window.location.href = "home.html";
+  }
+</script>
+
+</body>
+</html>
