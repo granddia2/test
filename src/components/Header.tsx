@@ -19,7 +19,7 @@ export default function Header() {
           </span>
         </Link>
         <nav className="hidden md:flex items-center gap-6">
-          <Link to="/" className="font-mono text-sm font-bold hover:underline underline-offset-4 tracking-tighter">MADE BY T</Link>
+          <Link to="/" className="font-mono text-sm font-bold hover:underline underline-offset-4 tracking-tighter">MADE BY T AND GRANDDIA2</Link>
         </nav>
       </div>
     </header>
