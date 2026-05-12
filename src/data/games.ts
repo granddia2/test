@@ -70,7 +70,7 @@ export const games: Game[] = [
     description: '',
     url: 'https://mc0825.github.io/g26/class-511',
     thumbnail: 'https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU=w240-h480-rw',
-    category: 'Fast Paced'  
+    category: 'Fast Paced'
   },
   {
     id: 'game-9',
@@ -78,7 +78,6 @@ export const games: Game[] = [
     description: 'Might not work',
     url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
     thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
-    category: 'kids'  
- },
+    category: 'kids'
   }
 ];
