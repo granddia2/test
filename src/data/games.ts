@@ -79,5 +79,13 @@ export const games: Game[] = [
     url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
     thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
     category: 'Fun'
+  },
+  {
+    id: 'game-10',
+    title: 'Volley Random',
+    description: '',
+    url: 'https://mc0825.github.io/g/class-811',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-WsAiFSXWoWlHvWGYm4xNQysU_kK39VvcRz54bY9a1mdBapeDJne6gevddjqVG_5qhvQZIfZx3POJnNa6sJ-fBbEVW-oUY7-Rv27LwQ&s=10',
+    category: 'Fast Paced'
   }
 ];
