@@ -36,8 +36,7 @@ export const games: Game[] = [
     id: 'game-4',
     title: 'Tag',
     description: '',
-    url: 'https://mc0825.github.io/g69/class-633/',
-    thumbnail: 'https://taggame.io/data/image/options/tag-game-banner-tgio.png',
+    url: 'https://mc0825.github.io/g69/class-633/',https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqnv5dEDOurGtf2ftRLZDASTNMHsTCh8eDhg&s',
     category: 'Multiplayer'
   },
   {
@@ -110,7 +109,7 @@ export const games: Game[] = [
     title: 'Basket Random',
     description: '',
     url: 'https://mc0825.github.io/g5/class-456',
-    thumbnail: 'https://www.coolmathgames.com/sites/default/files/styles/blog_node_image/public/2021-03/Screen%20Shot%202021-03-19%20at%202.45.51%20PM.png.webp?itok=v01_UVn5',
+    thumbnail: 'https://images.sftcdn.net/images/t_app-cover-s-16-9,f_auto/p/c980f465-a1b3-49d0-a53a-bca3d956be49/2213180539/basket-random-unblocked-screenshot',
     category: 'Platformer'
   },
   {
@@ -118,7 +117,7 @@ export const games: Game[] = [
     title: 'Smash Karts',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbyE1C_kxeomVoOLjpaXc2uAI7JdNgVhdQdePTZu9Sizwzj_imhaWnNmPSXm4w1v-SFs/exec',
-    thumbnail: 'https://smashkarts.io/images/SmashKartsPoster.jpg',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZeAncUPzcpBXnoPduVqHD_P5gfghYmA6rKw&s',
     category: 'Shooter'
   }
 ];
