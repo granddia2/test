@@ -65,11 +65,11 @@ export const games: Game[] = [
     category: 'Multiplayer'
   },
   {
-    id: 'game-8',
-    title: 'Minecraft 1.8',
+    id: 'game-9',
+    title: 'Soccer Random',
     description: '',
-    url: 'https://granddia2.github.io/minecraft18.html',
-    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3i6T2Z3GQtOp-O6IC1qtggAoP3_-vm0RsPw&s',
-    category: 'Creative'
+    url: 'src="https://mc0825.github.io/g26/class-511',
+    thumbnail: 'https://play.google.com/store/apps/details?id=com.twoplayergames.soccerrandom',
+    category: 'Fast Paced'  
   }
 ];
