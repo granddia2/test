@@ -10,14 +10,6 @@ export interface Game {
 export const games: Game[] = [
   {
     id: 'game-1',
-    title: 'tribals(NOT WORKING)',
-    description: '',
-    url: 'https://script.google.com/macros/s/AKfycbyQAmL7_9B9SGFKb9xwOh661dzn-kzNjuLwyDPSg0hY6WD79s2lwAny9uHhvRGRDqLq/exec',
-    thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
-    category: 'Action'
-  },
-  {
-    id: 'game-2',
     title: 'Rocket goal',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbybZkVPGyvHUOZbwrJSn5fRQIFcGpoIEhp0r-yq2GWRtE_1G7YzP4t8kPZRfp6tutUN/exec',
@@ -25,23 +17,23 @@ export const games: Game[] = [
     category: 'Puzzle'
   },
   {
-    id: 'game-3',
-    title: 'Assault Bots(NOT WORKING)',
+    id: 'game-2',
+    title: 'Assault Bots (IBoss block)',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbz5GtoRAR-e_NYMEGdV33FLU03F3DlGqW34qEkkEzGC5D8e7rvDjJs4S11jaH5_J_z7/exec',
     thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
     category: 'Strategy'
   },
   {
-    id: 'game-4',
-    title: 'Bloxd(NOT WORKING)',
+    id: 'game-3',
+    title: 'Bloxd (IBoss block)',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbwAsvXTh7XurBCTIbcTw-5reuXukTR533fvSlll-toib_7SG_JYklsitXLgSu9mLIolbA/exec',
     thumbnail: 'https://img.craiyon.com/2026-05-11/p4enqAwJQAOoXs4TOVu_Iw.webp',
     category: 'Adventure'
   },
   {
-    id: 'game-5',
+    id: 'game-4',
     title: 'Tag',
     description: '',
     url: 'https://mc0825.github.io/g69/class-633/',
@@ -49,7 +41,7 @@ export const games: Game[] = [
     category: 'Multiplayer'
   },
   {
-    id: 'game-6',
+    id: 'game-5',
     title: 'Getaway Shootout',
     description: '',
     url: 'https://mc0825.github.io/g9/class-479/',
@@ -57,7 +49,7 @@ export const games: Game[] = [
     category: 'Multiplayer'
   },
   {
-    id: 'game-7',
+    id: 'game-6',
     title: 'Animals Volleyball',
     description: '',
     url: 'https://mc0825.github.io/g66/class-847/',
@@ -65,7 +57,7 @@ export const games: Game[] = [
     category: 'Sports'
   },
   {
-    id: 'game-8',
+    id: 'game-7',
     title: 'Wrassling',
     description: '',
     url: 'https://mc0825.github.io/g69/class-651',
@@ -73,7 +65,32 @@ export const games: Game[] = [
     category: 'Multiplayer'
   },
   {
+    id: 'game-8',
+    title: 'Soccer Random',
+    description: '',
+    url: 'https://mc0825.github.io/g26/class-511',
+    thumbnail: 'https://play-lh.googleusercontent.com/G1PIlb6HWKSaDre0XpUcmKGps9T4iamsSlwrogB3EJzYv4bz0M2am4D17MtGzndaOOU=w240-h480-rw',
+    category: 'Fast Paced'
+  },
+  {
     id: 'game-9',
+    title: 'Bitlife',
+    description: '',
+    url: 'https://ubg365.github.io/bitlife-life-simulator/play.html',
+    thumbnail: 'https://i.ytimg.com/vi/WUTrv--kZtI/maxresdefault.jpg',
+    category: 'Fun'
+  },
+  {
+    id: 'game-10',
+    title: 'Volley Random',
+    description: '',
+    url: 'https://mc0825.github.io/g/class-811',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE-WsAiFSXWoWlHvWGYm4xNQysU_kK39VvcRz54bY9a1mdBapeDJne6gevddjqVG_5qhvQZIfZx3POJnNa6sJ-fBbEVW-oUY7-Rv27LwQ&s=10',
+    category: 'Fast Paced'
+
+  },
+  {
+    id: 'game-11',
     title: 'Minecraft 1.8',
     description: '',
     url: 'https://granddia2.github.io/minecraft18.html',
@@ -81,7 +98,7 @@ export const games: Game[] = [
     category: 'Creative'
   },
   {
-    id: 'game-10',
+    id: 'game-12',
     title: 'OvO',
     description: '',
     url: 'https://mc0825.github.io/g5/class-456',
@@ -89,7 +106,7 @@ export const games: Game[] = [
     category: 'Platformer'
   },
   {
-    id: 'game-11',
+    id: 'game-13',
     title: 'Basket Random',
     description: '',
     url: 'https://mc0825.github.io/g5/class-456',
@@ -97,7 +114,7 @@ export const games: Game[] = [
     category: 'Platformer'
   },
   {
-    id: 'game-12',
+    id: 'game-14',
     title: 'Smash Karts',
     description: '',
     url: 'https://script.google.com/macros/s/AKfycbyE1C_kxeomVoOLjpaXc2uAI7JdNgVhdQdePTZu9Sizwzj_imhaWnNmPSXm4w1v-SFs/exec',
