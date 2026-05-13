@@ -125,7 +125,7 @@ export const games: Game[] = [
     title: 'Leader Strike',
     description: '',
     url: 'https://inkyedu118.github.io/g97/class-542',
-    thumbnail: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxMTEhUTExMWFhUXFx8bGBcYGB0aHhcdHx4YGBsaHR8gHSggGB8lGyAgJjEiJSktLi4uHR8zODMtNygtLisBCgoKDg0OGxAQGzUlICYuLTUwLS0tLS0tLS8vLS0vM',
+    thumbnail: 'https://i.ytimg.com/vi/rIqaCUaAY1k/mqdefault.jpg',
     category: 'Shooter'
   },
   {
