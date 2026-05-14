@@ -143,5 +143,13 @@ export const games: Game[] = [
     url: 'https://genizymath.github.io/iframe/253-update.html',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSegUUBOgagwjsPQMNPDAN_3iRVThIOm3EECQ&s',
     category: 'AI'
+  },
+  {
+    id: 'game-18',
+    title: 'Among Us',
+    description: '',
+    url: 'https://script.google.com/macros/s/AKfycbw0mXpD5irGNnKE6brrRG6IqtCBlMhjczxVMt0Jz69D3vngJ2DjxftVuuCuDR2TUlCZ/exec',
+    thumbnail: 'https://i.ytimg.com/vi/0YKjFoGxbec/maxresdefault.jpg',
+    category: 'Party'
   }
 ];
