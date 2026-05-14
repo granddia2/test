@@ -74,9 +74,9 @@ export const games: Game[] = [
   },
   {
     id: 'game-9',
-    title: 'Minecraft 1.8',
+    title: 'Minecraft Launcher',
     description: '',
-    url: 'https://granddia2.github.io/minecraft18.html',
+    url: 'https://irv77.github.io/AmplerLauncher/',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3i6T2Z3GQtOp-O6IC1qtggAoP3_-vm0RsPw&s',
     category: 'Creative'
   },
