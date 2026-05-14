@@ -1,0 +1,4 @@
+import LiveChat from "./components/LiveChat";
+
+// Inside your JSX:
+<LiveChat />
