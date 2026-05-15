@@ -8,6 +8,9 @@ export default function Home() {
     <div className="max-w-7xl mx-auto px-4 py-8 md:py-12">
       <section>
         <div className="flex items-center gap-4 mb-8">
+          <h3>Alt Links:</h3>
+          <a href="https://www.granddia3.github.io">Alt Link 1</a>
+          <a href="https://www.granddia3.github.io/alt-link1">Alt Link 2</a>
           <h2 className="font-mono font-black text-2xl uppercase tracking-tighter">GAMES</h2>
         </div>
 
