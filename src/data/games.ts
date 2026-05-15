@@ -159,4 +159,5 @@ export const games: Game[] = [
     url: 'https://bosorioo.github.io/wordle-unlimited/',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
     category: 'Skill'
+  }
 ];
