@@ -11,7 +11,7 @@ export default function Home() {
           <h3>Alt Links:</h3>
           <a href="granddia3.github.io">Alt Link 1</a>
          <p><a href="granddia3.github.io/alt-link1">Alt Link 2</a></p>
-          <h2 className="font-mono font-black text-2xl uppercase tracking-tighter">GAMES</h2>
+          <p><h2 className="font-mono font-black text-2xl uppercase tracking-tighter">GAMES</h2></p>
         </div>
 
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
