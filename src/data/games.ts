@@ -175,5 +175,13 @@ export const games: Game[] = [
     url: 'https://script.google.com/macros/s/AKfycbwq4d8v_dkz0sx64ODo_5y7FMAboBGGRLfoAk-Z_KwcOT1JGC7RO1EWHQh7b4xipEwn/exec',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg95HUR8DsAkbGKqfTIW7n_jH9CcuLGh5OgA&s',
     category: 'Party'
+  },
+  {
+    id: 'game-22',
+    title: 'Chess',
+    description: 'Its Chess bro what am I supposed to say?',
+    url: 'Chess.com',
+    thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg95HUR8DsAkbGKqfTIW7n_jH9CcuLGh5OgA&s',
+    category: 'Chess'
   }
 ];
