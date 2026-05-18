@@ -180,7 +180,7 @@ export const games: Game[] = [
     id: 'game-22',
     title: 'Chess',
     description: 'Its Chess bro what am I supposed to say?',
-    url: 'Chess.com',
+    url: 'https://www.chess.com/home',
     thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRg95HUR8DsAkbGKqfTIW7n_jH9CcuLGh5OgA&s',
     category: 'Chess'
   }
