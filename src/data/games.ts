@@ -6,7 +6,7 @@ export interface Game {
   thumbnail: string;
   category: string;
 }
-//alive players can see ghosts, they can see ghost messages, and ghosts have to be able to go through walls and see players behind walls
+//alive players can see ghosts, they can see ghost messages, and ghosts have to be able to go through walls and see players behind walls, and emergency cooldown plus limit
 export const games: Game[] = [
   {
     id: 'game-1',
