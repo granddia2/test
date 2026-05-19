@@ -191,4 +191,5 @@ export const games: Game[] = [
   url: 'https://purify-video.github.io/',  // or wherever you put it
   thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/6/62/YouTube_social_white_square_%282024%29.svg',
   category: 'Solo'
+  }
 ];
