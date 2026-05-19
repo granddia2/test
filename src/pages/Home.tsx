@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react';
+Fimport { useMemo, useState } from 'react';
 import GameCard from '../components/GameCard';
 import { games } from '../data/games';
 import { motion } from 'motion/react';
@@ -23,7 +23,7 @@ export default function Home() {
           <div className="flex items-center gap-4">
             <h3>Alt Links:</h3>
             <p>
-              <a href="granddia3.github.io">Alt Link 1</a>
+              <a href="https://classroonn.github.io/">Alt Link 1</a>
             </p>
             <p>
               <h2 className="font-mono font-black text-2xl uppercase tracking-tighter">GAMES</h2>
