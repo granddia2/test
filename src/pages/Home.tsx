@@ -1,4 +1,4 @@
-Fimport { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
 import GameCard from '../components/GameCard';
 import { games } from '../data/games';
 import { motion } from 'motion/react';
@@ -69,3 +69,4 @@ export default function Home() {
     </div>
   );
 }
+
