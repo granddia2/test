@@ -163,7 +163,7 @@ export const games: Game[] = [
   {
     id: 'game-20',
     title: 'Sandboxels',
-    description: 'Fun to experiment and play by yourself',
+    description: 'DOES NOT WORK FOR NOW. ',
     url: 'https://rockisdirt.github.io/',
     thumbnail: 'data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxITEhMQEhMVFRUXFRUSFRUXFxgSFRYVGBIXGBYVFRYbHSggGBolHBUYITEiJykrOi4uFx8zODMtNygtLisBCgoKDg0OGxAQGy0mICUrLzAtMDctKy0tLS0rLS0yL[...]',
     category: 'Science'
@@ -179,9 +179,16 @@ export const games: Game[] = [
   {
   id: 'game-22',
   title: 'Chess',
-  description: 'Play chess with a friend online using a room code.',
+  description: 'Play chess with a friend online using a room code. It might be a little slow at times (or bring your piece back), but it will be fixed soon. ',
   url: '/chess.html',  // or wherever you put it
-  thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/ChessSet.jpg/320px-ChessSet.jpg',
+  thumbnail: 'https://chat.google.com/u/0/api/get_attachment_url?url_type=FIFE_URL&content_type=image%2Fpng&attachment_token=AOo0EEXGg8sQWzwEYP4XVStZ%2BDQhhFD3%2Fb8P6mv9VxWYhTEX%2FzxPwGA6CcRcwRGJV5U8HAEr2pCMGZtO1XOzSycpBV8%2Bf%2BiyeqZlCQTtzOngb34GJCcvOi75WJ3WtJcWx%2BFnGFQwgM1RaDe%2Bdlz1eySs8MIue98aFnD2hMz%2BhiVB9zhSHZJ%2F7geDY1SHmM6JaVZl5a6WakjvWDzJcd88n6YbK9lCyLXpu04SkTn88p%2FcTIlp6p1pG04N3%2BOKVlEU96uJJmALDknGx7CDr55Mk9UR5IAMDbGTgCAkgxPDOzeW2qfofbDK7%2BY02CYs3nAYByXhDzPWMrQkAAqt9IVr7ifDexJxTt5NARHXQNbMf5KDFlsLVPXWuFq9FCspCoyNc8IOkd9%2BJTD%2ForHJgzMgiSOZgSI%2FEAgnRz%2Bsonk6%2Fl5SEa%2BDmx0OvVF%2F7%2FcY7L1UHjmnOO6wOHhp%2BDO%2FISF%2BaBfWCsmfKz9ztmySK9%2FdZmaTtZZHptRFc5iRfxHczJTlEBDFOn9Fo3zw5eC1uNlD0sF4DeX4aGTK48jOk%2BxB6qezbH6RBOYnt4RoE3pz1qLjPzaXq8yog29cLE0M596DrumgCUjSxXwIVTMYdrdVSajOzfEOtP5aq2AigQ%3D%3D&allow_caching=true&sz=w1920-h868-rw&auditContext=forDisplay',
   category: 'Multiplayer'
-  }
+  },
+  {
+  id: 'game-23',
+  title: 'Youtube',
+  description: 'Youtube unblocked, should allow you to paste videos into the URL thingy and watch it.',
+  url: 'https://purify-video.github.io/',  // or wherever you put it
+  thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/6/62/YouTube_social_white_square_%282024%29.svg',
+  category: 'Solo'
 ];
