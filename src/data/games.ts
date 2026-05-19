@@ -6,7 +6,6 @@ export interface Game {
   thumbnail: string;
   category: string;
 }
-//alive players can see ghosts, they can see ghost messages, and ghosts have to be able to go through walls and see players behind walls, and emergency cooldown plus limit
 export const games: Game[] = [
   {
     id: 'game-1',
@@ -92,7 +91,7 @@ export const games: Game[] = [
     id: 'game-11',
     title: 'Basket Random',
     description: '',
-    url: 'https://mc0825.github.io/g5/class-456',
+    url: 'https://mc0825.github.io/g5/class-436',
     thumbnail: 'https://images.sftcdn.net/images/t_app-cover-s-16-9,f_auto/p/c980f465-a1b3-49d0-a53a-bca3d956be49/2213180539/basket-random-unblocked-screenshot',
     category: 'Platformer'
   },
@@ -191,5 +190,13 @@ export const games: Game[] = [
   url: 'https://granddia2.github.io/old/yt.html',  // or wherever you put it
   thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR_yL7AtgrIozF4QESx27DN6CDTvAuxtEfPPw&s',
   category: 'Solo'
+  },
+  {
+  id: 'game-24',
+  title: 'Wordle 1v1',
+  description: 'Wordle but multiplayer',
+  url: 'wip',
+  thumbnail: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXo17pL3S9PjcsR4V-ZPUr8nuQ622Lq0lhA&s',
+  category: 'Multiplayer'
   }
 ];
