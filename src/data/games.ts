@@ -188,7 +188,7 @@ export const games: Game[] = [
   id: 'game-23',
   title: 'Youtube',
   description: 'Youtube unblocked, should allow you to paste videos into the URL thingy and watch it.',
-  url: 'https://purify-video.github.io/',  // or wherever you put it
+  url: 'https://granddia2.github.io/old/yt.html',  // or wherever you put it
   thumbnail: 'https://upload.wikimedia.org/wikipedia/commons/6/62/YouTube_social_white_square_%282024%29.svg',
   category: 'Solo'
   }
