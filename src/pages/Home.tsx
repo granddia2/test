@@ -2,7 +2,6 @@ import { useMemo, useState } from 'react';
 import GameCard from '../components/GameCard';
 import { games } from '../data/games';
 import { motion } from 'motion/react';
-import ChessBoard from '../components/ChessBoard';
 
 export default function Home() {
   const [query, setQuery] = useState('');
@@ -67,7 +66,6 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <ChessBoard />
     </div>
   );
 }
